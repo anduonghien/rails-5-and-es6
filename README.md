@@ -5,3 +5,7 @@
 * Uses `almond` as an AMD API implementation via https://rails-assets.org
 * The initializer for Babel is configured to use `amd`
 * You need an application.js which requires all files, in there a boot.es6 is loaded that will kickstart the entire thing
+
+## Alternative
+
+* You can use an [external Node.js pipeline](https://github.com/moonglum/rails-5-and-node-asset-pipeline) instead
